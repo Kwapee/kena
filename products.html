@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms and Conditions</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Products</h1>
+    <input type="text" id="search-box" onkeyup="searchProducts()" placeholder="Search products...">
+    <ul id="product-list">
+      <li>
+        <img src="images/dro.jpeg" alt="Product 1">
+        <h2>Drone 1</h2>
+        <p>$99.99</p>
+        <button onclick="addToCart(1)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro1.png" alt="Product 2">
+        <h2>Drone 2</h2>
+        <p>$129.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro2.jpg" alt="Product 2">
+        <h2>Drone 3</h2>
+        <p>$109.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro3.jpeg" alt="Product 2">
+        <h2>Drone 4</h2>
+        <p>$169.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro4.png" alt="Product 2">
+        <h2>Drone 5</h2>
+        <p>$139.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro5.jpg" alt="Product 2">
+        <h2>Drone 6</h2>
+        <p>$109.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro6.png" alt="Product 2">
+        <h2>Drone 7</h2>
+        <p>$99.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <li>
+        <img src="images/dro7.png" alt="Product 2">
+        <h2>Drone 8</h2>
+        <p>$209.99</p>
+        <button onclick="addToCart(2)">Rent</button>
+      </li>
+      <!-- More products... -->
+    </ul>
+  </main>
+  <br><br><br><br><br><br>
+
+  <footer>
+    <p>&copy; 2024 Our E-Commerce Website</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
